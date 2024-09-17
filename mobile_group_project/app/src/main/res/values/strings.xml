@@ -3,4 +3,6 @@
     <string name="email_adr">Email address</string>
     <string name="policy1">By continuing, you agree to Pinterest\'s Terms of Service and acknowledge that you\'ve read our Privacy Policy.</string>
     <string name="policy2">Notice at collection.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
