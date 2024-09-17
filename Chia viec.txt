@@ -11,10 +11,9 @@ App: Pinterest
 --------------------------
 4. Hải
   - Làm saved
-  - thuyết trình
 --------------------------
 5. Hưng
   - Làm phần Your account (dạng button, khi ấn vào sẽ chuyển đến 1 activity khác)
 --------------------------
 6. An
-  - kiếm ảnh (ảnh gì cx đc, ko quá lố, đa dạng về res, tối thiểu 100 ảnh), làm pp, chuẩn bị phần thuyết trình
+  - kiếm ảnh (ảnh gì cx đc, ko quá lố, đa dạng về res, tối thiểu 100 ảnh), làm pp, chuẩn bị phần thuyết trình và thuyết trình
