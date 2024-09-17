@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.bottom_search:
                         tabLayout.setVisibility(View.GONE);
                         getSupportFragmentManager().beginTransaction()
-                                .replace(R.id.frameLayout, new SearchPage()).commit();
+                                .replace(R.id.frameLayout, new SearchFragment()).commit();
                         return true;
 
                     case R.id.bottom_create:
