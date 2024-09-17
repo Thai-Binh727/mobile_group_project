@@ -18,8 +18,12 @@ public class Login_Page extends AppCompatActivity {
 
         setContentView(R.layout.activity_login_page);
 
+
         // Continue button
         continue_button = findViewById(R.id.continue_button);
+
+        continue_button.findViewById(R.id.continue_button);
+
         continue_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
