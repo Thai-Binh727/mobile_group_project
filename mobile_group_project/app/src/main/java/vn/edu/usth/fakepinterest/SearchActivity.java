@@ -7,7 +7,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class SearchPage extends AppCompatActivity {
+public class SearchActivity extends AppCompatActivity {
     private Button button_2;
     private Button button_1;
     private Button button_3;
@@ -27,7 +27,7 @@ public class SearchPage extends AppCompatActivity {
         button_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SearchPage.this, SearchEnd.class);
+                Intent intent = new Intent(SearchActivity.this, SearchEnd.class);
                 startActivity(intent);
             }
         });
@@ -37,7 +37,7 @@ public class SearchPage extends AppCompatActivity {
         button_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SearchPage.this, SearchEnd.class);
+                Intent intent = new Intent(SearchActivity.this, SearchEnd.class);
                 startActivity(intent);
             }
         });
@@ -47,7 +47,7 @@ public class SearchPage extends AppCompatActivity {
         button_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SearchPage.this, SearchEnd.class);
+                Intent intent = new Intent(SearchActivity.this, SearchEnd.class);
                 startActivity(intent);
             }
         });

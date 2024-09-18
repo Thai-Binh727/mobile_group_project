@@ -13,6 +13,9 @@
         android:theme="@style/Theme.FakePinterest"
         tools:targetApi="31">
         <activity
+            android:name=".SearchActivity"
+            android:exported="false" />
+        <activity
             android:name=".home_test"
             android:exported="false" />
         <activity

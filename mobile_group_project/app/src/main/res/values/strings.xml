@@ -17,6 +17,8 @@
     <string name="beauty">Beauty</string>
     <string name="horror">Horror</string>
     <string name="travel">Travel</string>
+    <string name="flower">Flower</string>
+    <string name="clicked">The chosen one</string>
 
     <string name="creating">Start creating now</string>
 </resources>
