@@ -1,18 +1,13 @@
 package vn.edu.usth.fakepinterest.CreatePage;
 
-import android.content.Intent;
 import android.os.Bundle;
+
+import androidx.fragment.app.Fragment;
+
+import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.Button;
+import android.view.ViewGroup;
 
-<<<<<<< HEAD:mobile_group_project/app/src/main/java/vn/edu/usth/fakepinterest/SearchPage.java
-import androidx.appcompat.app.AppCompatActivity;
-
-public class SearchPage extends AppCompatActivity {
-    private Button button_2;
-    private Button button_1;
-    private Button button_3;
-=======
 import vn.edu.usth.fakepinterest.R;
 
 /**
@@ -52,54 +47,20 @@ public class CreatePage extends Fragment {
         fragment.setArguments(args);
         return fragment;
     }
->>>>>>> ea059c11be75c5a35b179533c624efba227cb31c:mobile_group_project/app/src/main/java/vn/edu/usth/fakepinterest/CreatePage/CreatePage.java
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        if (getArguments() != null) {
+            mParam1 = getArguments().getString(ARG_PARAM1);
+            mParam2 = getArguments().getString(ARG_PARAM2);
+        }
+    }
 
-<<<<<<< HEAD:mobile_group_project/app/src/main/java/vn/edu/usth/fakepinterest/SearchPage.java
-        setContentView(R.layout.fragment_search);
-
-
-        // Continue button
-        button_2 = findViewById(R.id.search_button_2);
-
-        button_2.findViewById(R.id.continue_button);
-
-        button_2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(SearchPage.this, SearchEnd.class);
-                startActivity(intent);
-            }
-        });
-
-        // Continue facebook button
-        button_1 = findViewById(R.id.search_button_1);
-        button_1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(SearchPage.this, SearchEnd.class);
-                startActivity(intent);
-            }
-        });
-
-        // Continue google button
-        button_3 = findViewById(R.id.search_button_3);
-        button_3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(SearchPage.this, SearchEnd.class);
-                startActivity(intent);
-            }
-        });
-=======
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.bottomsheetlayout, container, false);
->>>>>>> ea059c11be75c5a35b179533c624efba227cb31c:mobile_group_project/app/src/main/java/vn/edu/usth/fakepinterest/CreatePage/CreatePage.java
     }
 }
