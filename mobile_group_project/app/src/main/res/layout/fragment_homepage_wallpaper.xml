@@ -3,7 +3,561 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomePage_Wallpaper"
-    android:background="@color/pinterset_red">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Homepage.HomePage_Wallpaper"
+    android:background="@color/black">
 
+    <ScrollView
+        android:id="@+id/homepage_all_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Parent LinearLayout to divide screen horizontally -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- First half - LinearLayout with vertical orientation -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="2000dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:background="@color/black">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:src="@drawable/door"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:shapeAppearanceOverlay="@style/round_image"/>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:text="Pink Door"
+                            android:textColor="@color/white"
+                            android:gravity="start" />
+
+                        <ImageView
+                            android:paddingEnd="5dp"
+                            android:paddingTop="5dp"
+                            android:src="@drawable/dots_white"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="end" />
+
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:src="@drawable/wallpaper_25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:shapeAppearanceOverlay="@style/round_image"/>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:text="IDK"
+                            android:textColor="@color/white"
+                            android:gravity="start" />
+
+                        <ImageView
+                            android:paddingEnd="5dp"
+                            android:paddingTop="5dp"
+                            android:src="@drawable/dots_white"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="end" />
+
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:src="@drawable/beauty_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:shapeAppearanceOverlay="@style/round_image"/>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:text="Just a girl"
+                            android:textColor="@color/white"
+                            android:gravity="start" />
+
+                        <ImageView
+                            android:paddingEnd="5dp"
+                            android:paddingTop="5dp"
+                            android:src="@drawable/dots_white"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="end" />
+
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:src="@drawable/anime_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:shapeAppearanceOverlay="@style/round_image"/>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:text=""
+                            android:textColor="@color/white"
+                            android:gravity="start" />
+
+                        <ImageView
+                            android:paddingEnd="5dp"
+                            android:paddingTop="5dp"
+                            android:src="@drawable/dots_white"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="end" />
+
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:src="@drawable/animal_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:shapeAppearanceOverlay="@style/round_image"/>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:text="Parrot"
+                            android:textColor="@color/white"
+                            android:gravity="start" />
+
+                        <ImageView
+                            android:paddingEnd="5dp"
+                            android:paddingTop="5dp"
+                            android:src="@drawable/dots_white"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="end" />
+
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:src="@drawable/wallpaper_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:shapeAppearanceOverlay="@style/round_image"/>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:text="Rick and Morty"
+                            android:textColor="@color/white"
+                            android:gravity="start" />
+
+                        <ImageView
+                            android:paddingEnd="5dp"
+                            android:paddingTop="5dp"
+                            android:src="@drawable/dots_white"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="end" />
+
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:src="@drawable/animal_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:shapeAppearanceOverlay="@style/round_image"/>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:text="Dog"
+                            android:textColor="@color/white"
+                            android:gravity="start" />
+
+                        <ImageView
+                            android:paddingEnd="5dp"
+                            android:paddingTop="5dp"
+                            android:src="@drawable/dots_white"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="end" />
+
+                    </FrameLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Second half - LinearLayout with vertical orientation -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:background="@color/black">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:src="@drawable/animal_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:shapeAppearanceOverlay="@style/round_image"/>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:text="Dog"
+                            android:textColor="@color/white"
+                            android:gravity="start" />
+
+                        <ImageView
+                            android:paddingEnd="5dp"
+                            android:paddingTop="5dp"
+                            android:src="@drawable/dots_white"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="end" />
+
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:src="@drawable/animal_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:shapeAppearanceOverlay="@style/round_image"/>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:text="Parrot"
+                            android:textColor="@color/white"
+                            android:gravity="start" />
+
+                        <ImageView
+                            android:paddingEnd="5dp"
+                            android:paddingTop="5dp"
+                            android:src="@drawable/dots_white"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="end" />
+
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:src="@drawable/beauty_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:shapeAppearanceOverlay="@style/round_image"/>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:text="Just a girl"
+                            android:textColor="@color/white"
+                            android:gravity="start" />
+
+                        <ImageView
+                            android:paddingEnd="5dp"
+                            android:paddingTop="5dp"
+                            android:src="@drawable/dots_white"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="end" />
+
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:src="@drawable/wallpaper_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:shapeAppearanceOverlay="@style/round_image"/>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:text="Rick and Morty"
+                            android:textColor="@color/white"
+                            android:gravity="start" />
+
+                        <ImageView
+                            android:paddingEnd="5dp"
+                            android:paddingTop="5dp"
+                            android:src="@drawable/dots_white"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="end" />
+
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:src="@drawable/wallpaper_25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:shapeAppearanceOverlay="@style/round_image"/>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:text="IDK"
+                            android:textColor="@color/white"
+                            android:gravity="start" />
+
+                        <ImageView
+                            android:paddingEnd="5dp"
+                            android:paddingTop="5dp"
+                            android:src="@drawable/dots_white"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="end" />
+
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:src="@drawable/door"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:shapeAppearanceOverlay="@style/round_image"/>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:text="Pink Door"
+                            android:textColor="@color/white"
+                            android:gravity="start" />
+
+                        <ImageView
+                            android:paddingEnd="5dp"
+                            android:paddingTop="5dp"
+                            android:src="@drawable/dots_white"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="end" />
+
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:src="@drawable/anime_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:shapeAppearanceOverlay="@style/round_image"/>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:text=""
+                            android:textColor="@color/white"
+                            android:gravity="start" />
+
+                        <ImageView
+                            android:paddingEnd="5dp"
+                            android:paddingTop="5dp"
+                            android:src="@drawable/dots_white"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="end" />
+
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
 </FrameLayout>

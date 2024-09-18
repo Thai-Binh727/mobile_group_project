@@ -9,7 +9,7 @@
     android:layout_gravity="center"
     android:orientation="vertical"
     android:padding="50dp"
-    tools:context=".Login_Page">
+    tools:context=".LoginPage.Login_Page">
 
     <!-- Pinterest logo -->
     <ImageView
