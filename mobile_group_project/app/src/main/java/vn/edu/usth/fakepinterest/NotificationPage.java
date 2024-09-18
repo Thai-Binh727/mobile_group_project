@@ -26,7 +26,7 @@ public class NotificationPage extends Fragment {
         viewPager.setAdapter(pagerAdapter);
 
         new TabLayoutMediator(tabLayout, viewPager, (tab, position) -> {
-            tab.setText(position == 0 ? "Cập nhật" : "Hộp thư đến");
+            tab.setText(position == 0 ? "Updates" : "Inbox");
         }).attach();
 
         return view;
