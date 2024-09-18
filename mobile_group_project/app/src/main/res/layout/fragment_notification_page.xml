@@ -5,11 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< Updated upstream
-=======
     android:background="@color/white"
     android:rotationX="-6"
->>>>>>> Stashed changes
     tools:context=".NotificationPage">
 
     <com.google.android.material.tabs.TabLayout
