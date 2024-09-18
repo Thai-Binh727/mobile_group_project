@@ -7,7 +7,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Login_Page extends AppCompatActivity {
+public class    Login_Page extends AppCompatActivity {
     private Button continue_button;
     private Button continue_fb_button;
     private Button continue_gg_button;
