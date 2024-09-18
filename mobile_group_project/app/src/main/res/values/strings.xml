@@ -9,4 +9,14 @@
     <string name="Heading_search">Popular on Pinterest</string>
     <string name="test"> Testing layout</string>
     <string name="search">Search Pinterest</string>
+
+    <string name="gardening">Gardening ideas</string>
+    <string name="anime">Anime</string>
+    <string name="fitness">Fitness</string>
+    <string name="animals">Animals</string>
+    <string name="beauty">Beauty</string>
+    <string name="horror">Horror</string>
+    <string name="travel">Travel</string>
+
+    <string name="creating">Start creating now</string>
 </resources>
