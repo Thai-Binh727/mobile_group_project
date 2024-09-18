@@ -1,4 +1,4 @@
-package vn.edu.usth.fakepinterest;
+package vn.edu.usth.fakepinterest.LoginPage;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,7 +7,10 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Login_Page extends AppCompatActivity {
+import vn.edu.usth.fakepinterest.MainActivity;
+import vn.edu.usth.fakepinterest.R;
+
+public class    Login_Page extends AppCompatActivity {
     private Button continue_button;
     private Button continue_fb_button;
     private Button continue_gg_button;

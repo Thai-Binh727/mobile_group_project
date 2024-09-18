@@ -1,4 +1,4 @@
-package vn.edu.usth.fakepinterest;
+package vn.edu.usth.fakepinterest.Homepage;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;

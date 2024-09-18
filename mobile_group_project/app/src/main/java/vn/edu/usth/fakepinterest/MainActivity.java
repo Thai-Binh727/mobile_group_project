@@ -1,31 +1,24 @@
 package vn.edu.usth.fakepinterest;
 
 import android.annotation.SuppressLint;
-import android.app.Dialog;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
-import android.view.Window;
 import android.widget.FrameLayout;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.Toast;
 
-import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 import androidx.viewpager2.widget.ViewPager2;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 import com.google.android.material.tabs.TabLayout;
+
+import vn.edu.usth.fakepinterest.CreatePage.CreatePage;
+import vn.edu.usth.fakepinterest.Homepage.HomePage;
+import vn.edu.usth.fakepinterest.Homepage.HomePageAdapter;
+import vn.edu.usth.fakepinterest.Notification.NotificationPage;
+import vn.edu.usth.fakepinterest.Saved.SavedPage;
 
 public class MainActivity extends AppCompatActivity {
     TabLayout tabLayout;
