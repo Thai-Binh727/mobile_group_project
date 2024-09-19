@@ -32,13 +32,24 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
-                    <com.google.android.material.imageview.ShapeableImageView
-                        android:src="@drawable/door"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:adjustViewBounds="true"
-                        android:scaleType="fitCenter"
-                        app:shapeAppearanceOverlay="@style/round_image"/>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:src="@drawable/door"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
+                            app:shapeAppearanceOverlay="@style/round_image"/>
+
+                        <Button
+                            android:id="@+id/button_wallpaper_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:alpha="0"/>
+                    </FrameLayout>
 
                     <FrameLayout
                         android:layout_width="match_parent"
@@ -69,13 +80,24 @@
                     android:layout_marginTop="20dp"
                     android:orientation="vertical">
 
-                    <com.google.android.material.imageview.ShapeableImageView
-                        android:src="@drawable/wallpaper_25"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:adjustViewBounds="true"
-                        android:scaleType="fitCenter"
-                        app:shapeAppearanceOverlay="@style/round_image"/>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:src="@drawable/wallpaper_25"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
+                            app:shapeAppearanceOverlay="@style/round_image"/>
+
+                        <Button
+                            android:id="@+id/button_wallpaper_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:alpha="0"/>
+                    </FrameLayout>
 
                     <FrameLayout
                         android:layout_width="match_parent"
