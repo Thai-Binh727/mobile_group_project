@@ -68,14 +68,24 @@
                     android:orientation="horizontal"
                     android:padding="10dp">
 
-                    <com.google.android.material.imageview.ShapeableImageView
-                        android:src="@drawable/door"
-                        android:layout_width="90dp"
-                        android:layout_height="150dp"
-                        android:layout_marginEnd="10dp"
-                        android:adjustViewBounds="true"
-                        android:scaleType="centerCrop"
-                        app:shapeAppearanceOverlay="@style/round_image"/>
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:src="@drawable/door"
+                            android:layout_width="90dp"
+                            android:layout_height="150dp"
+                            android:layout_marginEnd="10dp"
+                            android:adjustViewBounds="true"
+                            android:scaleType="centerCrop"
+                            app:shapeAppearanceOverlay="@style/round_image"/>
+
+                        <Button
+                            android:id="@+id/button_wallpaper_1"
+                            android:layout_width="90dp"
+                            android:layout_height="150dp"
+                            android:alpha="0"/>
+                    </RelativeLayout>
 
                     <com.google.android.material.imageview.ShapeableImageView
                         android:src="@drawable/wallpaper_25"
